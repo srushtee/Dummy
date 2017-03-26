@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "229331426706",
+    "firebase_url": "https://dummy-3ea6a.firebaseio.com",
+    "project_id": "dummy-3ea6a",
+    "storage_bucket": "dummy-3ea6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229331426706:android:69cfaff806c03897",
+        "android_client_info": {
+          "package_name": "com.example.srushtee.dummy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229331426706-smvuotuc7ed9jglc382fj5bhvqsctl0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANrAcEbz6uVC0sCqrwQApYqvMnYoVH40Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

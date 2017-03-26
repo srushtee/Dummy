@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item android:id="@+id/nav_account"
+            android:icon="@mipmap/ic_account_balance_wallet_black_24dp"
+            android:title="My Account"/>
+        <item android:id="@+id/nav_photos"
+            android:icon="@mipmap/ic_photo_album_black_24dp"
+            android:title="My Photos"
+
+           />
+
+    </group>
+    <group android:id="@+id/grp3" android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_cities"
+            android:icon="@mipmap/skyline"
+            android:title="Cities"/>
+
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item android:id="@+id/nav_Settings"
+            android:icon="@mipmap/logout"
+            android:title="Settings"/>
+        <item android:id="@+id/nav_LogOut"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="Logout"/>
+        <item android:id="@+id/nav_about"
+            android:icon="@mipmap/about_us"
+            android:title="About Us"/>
+        </group>
+
+
+</menu>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.srushtee.dummy.MainActivity"
+    android:background="#333333">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="T O U R I S T E R"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+
+            android:id="@+id/textView3"
+            android:textColor="#ffffff"/>
+
+
+        <TextView
+            android:text="Sign up with "
+            style="@style/textview_style"
+            android:layout_gravity="center"
+            android:id="@+id/textView" />
+        <TextView
+            android:text=" "
+            style="@style/textview_style"
+            android:layout_gravity="center"
+            android:id="@+id/textView13" />
+
+
+
+
+
+        <TextView
+            android:text=""
+            style="@style/textview_style"
+            android:id="@+id/textView8"
+            android:textColor="#ffffff"
+
+            />
+        <TextView
+            android:text=""
+            style="@style/textview_style"
+            android:id="@+id/textView9"
+            android:textColor="#ffffff"
+
+            />
+
+
+        <EditText
+            style="@style/editText_style"
+            android:inputType="textPersonName"
+            android:text=""
+
+            android:id="@+id/editTextMail"
+            android:hint="Username or Email"/>
+
+        <EditText
+            style="@style/editText_style"
+            android:inputType="textPassword"
+            android:text=""
+            android:hint="Password"
+
+            android:id="@+id/editTextPassword"
+            />
+
+        <Button
+            style="@style/button_style"
+            android:text="Login"
+
+
+            android:id="@+id/buttonLogin"
+
+            />
+        <TextView
+            android:text="Forgot password"
+            style="@style/textview_style"
+            android:id="@+id/textView4"
+            android:textColor="#ffffff"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+
+            android:id="@+id/textView5"
+
+
+            />
+
+
+        <TextView
+            android:text="Dont have an account?Sign up"
+            style="@style/textview_style"
+            android:id="@+id/signup"
+            android:clickable="true"
+            android:background="@drawable/signup_background"
+            android:textSize="20dp"
+            android:shadowColor="#90CAF9"
+
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+
+            android:id="@+id/textView6"
+
+
+            />
+
+        <TextView
+            android:text="Skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/skip"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dummy</string>
+    <string name="facebook_app_id">1036266579812572</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="id">Error parsing JSON</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="web_client_id">229331426706-smvuotuc7ed9jglc382fj5bhvqsctl0o.apps.googleusercontent.com</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+
+</resources>
